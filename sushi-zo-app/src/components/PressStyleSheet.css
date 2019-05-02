@@ -37,4 +37,11 @@
     .press{
       opacity: 1 !important;
     }
+    .pressHeader {
+      display: flex;
+      flex-direction: column;
+    }    
+    .pressHeader>* {
+      width: 75%;
+    }
 }
